@@ -1,7 +1,7 @@
 name: New Component Discussion Ticket
 description: Issue ticket for discussing a new component
-title:  "{Project/Trial} Epic"
-labels: [ "design", "design system"]
+title:  "{Component Name} Discussion Ticket"
+labels: [ "design", "design system", "discussion"]
 assignees:
   - octocat
 body:
