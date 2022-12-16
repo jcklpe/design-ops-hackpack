@@ -1,0 +1,54 @@
+{
+    "semantic": "An input which allows users to upload a file from their device",
+    "border-style": "dashed",
+    "border-color": "color-palette.base.darker",
+    "border-width": "1px",
+    "padding": "75 250",
+    "call-to-action-text": "type-palette.paragraph",
+    "error-state": {
+        "semantic": "When a file upload validation rejects a file or there is some other error, styling changes to reflect this system feedback.",
+        "border-color": "color-palette.danger.default",
+        "border-width": "3px"
+    },
+    "uploaded-state": {
+        "semantic": "The uploaded state is the state of the file input component after the User has added some files to it for uploading. It gives a summary of what files have been uploaded and gives the user the option of changing those files",
+        "padding": "0",
+        "top": {
+            "semantic": "Top section of the upload state component.",
+            "background-color": "color-palette.primary.lightest",
+            "padding": "25px",
+            "heading": {
+                "semantic": "The heading lists how many files have been set to upload via the file input component.",
+                "font-style": "type-palette.buttontext",
+                "text-color": "color-palette.base.darkest",
+                "alignment": "left"
+            },
+            "change-files-button": {
+                "semantic": "A link-styled button used to restart the file upload process.",
+                "font-style": "type-palette.p.hyperlink",
+                "alignment": "right",
+            },
+        },
+        "file-upload-item": {
+            "semantic": "The individual files that have been set to upload by the User.",
+            "background-color": "color-palette.primary.lightest",
+            "padding-top": "15px",
+            "padding-bottom": "15px",
+            "padding-left": "25px",
+            "margin": "1 0",
+            "file-extension-icon": {
+                "semantic": "Icon visually identifying what file extension the file being uploaded is.",
+                "width": "50px",
+                "height": "50px",
+                "color": "color-palette.primary.darker",
+                "icons": [
+                    "icon-palette.csv",
+                    "icon-palette.xls",
+                    "icon-palette.xlsx"
+                ],
+            }
+
+        }
+    }
+
+}
