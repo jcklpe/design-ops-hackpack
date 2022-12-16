@@ -1,5 +1,7 @@
 {
     "semantic": "Iconography is used throughout the design system to communicate UI semantics. This palette provides a rundown of the existing icons.",
     "success": "../assets/icon-library/success.svg",
-
+    "csv": "../assets/icon-library/csv.svg",
+    "xls": "../assets/icon-library/xls.svg",
+    "xlsx": "../assets/icon-library/xlsx.svg",
 }
