@@ -47,7 +47,9 @@ Defines the semantic hierarchy of iconography. Icons are stored as SVGs in the a
 Shape covers general tokens like border radius, and layout stuff like margin and padding.
 
 ## Design System Governance
-The Design System Governance is centered on the Product Team context in order to ground the work in the particular needs of the applications as they exist and are built. The purpose of this is to encourage an agile, iterative, collaborative, bottom-up organization of Design System standards rather than a slow top-down organization which attempts to force standards onto Product Teams that may not even need them.
+The Design System Governance is centered on the Product Team context in order to ground the work in the particular needs of the applications as they exist and are built. The purpose of this is to encourage an agile, iterative, collaborative, bottom-up organization of Design System standards rather than a slow top-down organization.
+
+Governance isn't a hinderance to agility, it is the source of agility. Clear process benefits everyone.
 ```mermaid
 graph TB
     subgraph Design System Working Group Context
@@ -89,7 +91,7 @@ graph TB
 
 ```
 
-The Design System Governance work can be aided by the [Github issue templates](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/about-issue-and-pull-request-templates) found in this repo.
+The Design System Governance work can be aided by the [Github issue templates](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/about-issue-and-pull-request-templates) found in this repo. See some examples of this with [this discussion ticket](https://github.com/jcklpe/design-ops-hackpack/issues/2), and this [pull request](https://github.com/jcklpe/design-ops-hackpack/pull/3).
 
 ### Bar for Consensus
 
@@ -103,4 +105,4 @@ Something important to understand is that a Design System is bigger than a singl
 
 *(borrowed from [this article](https://specifyapp.com/blog/introduction-to-design-tokens))*
 
-Design Systems are bigger than just the code libraries or the Figma/Sketch/Penpot UI Kits that implement them. The Design System is the social construction that designers, devs, content creators, product, and stakeholders use to communicate and build consensus on how work gets done. This is why a solid designOps process requires a clear process for building that consensus.
+Design Systems are bigger than just the code libraries or the Figma/Sketch/Penpot UI Kits that implement them. The Design System is the social construction that designers, devs, content creators, product, and stakeholders use to communicate and build consensus on how work gets done.
