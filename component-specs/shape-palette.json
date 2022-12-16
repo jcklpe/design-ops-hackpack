@@ -1,0 +1,4 @@
+{
+    "semantic": "a palette for holding key values related to the shape/geometry of the UI",
+    "rounded-corners-radius": ".25rem",
+}

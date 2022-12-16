@@ -1,0 +1,89 @@
+{
+    "semantic": "The type palette is a collection of global tokens which are immanent throughout the rest of the application. The palette helps outline the semantic use of type styling in the design system. ",
+    "root element size": "16px",
+    "h1": {
+      "semantic": "type is reserved for 1st most important thing on a page, such as the page title",
+      "font": "sans serif",
+      "weight": "regular",
+      "scale": "2.5rem",
+      "size": "40pt",
+      "color": "color-palette.base.darkest"
+    },
+    "h2": {
+      "semantic": "type is reserved for 2nd most important things on the page",
+      "font": "sans serif",
+      "weight": "regular",
+      "scale": "2rem",
+      "size": "32pt",
+      "color": "color-palette.base.darkest"
+    },
+    "h3": {
+      "semantic": "type reserved for 3rd most important things on a page",
+      "font": "sans serif",
+      "weight": "regular",
+      "scale": "1.625rem",
+      "size": "26pt",
+      "color": "color-palette.base.darkest"
+    },
+    "h4": {
+      "semantic": "type reserved for 4th most important things on a page",
+      "font": "sans serif",
+      "weight": "regular",
+      "scale": "1.375rem",
+      "size": "22pt",
+      "color": "color-palette.base.darkest"
+    },
+    "h5": {
+      "semantic": "type reserved for 5th most important things on a page",
+      "font": "sans serif",
+      "weight": "regular",
+      "scale": "1.125rem",
+      "size": "18pt",
+      "color": "color-palette.base.darkest"
+    },
+    "h6": {
+      "semantic": "type reserved for sixth most important thing on a page. type at this size is the same as normal paragraph font so might also be considered for minor emphasis",
+      "font": "sans serif",
+      "weight": "bold",
+      "scale": "1rem",
+      "size": "16pt",
+      "color": "color-palette.base.darkest"
+    },
+    "p": {
+      "semantic": "All default font",
+      "font": "sans serif",
+      "weight": "regular",
+      "scale": "1rem",
+      "size": "16pt",
+      "color": "color-palette.base.darkest",
+      "hyperlink": {
+        "semantic": "type which links to another page",
+        "color": "color-palette.primary.default",
+        "underline": false,
+        "hover": {
+          "underline": true,
+        },
+        "disabled" {
+          "semantic": "a link when disabled",
+          "color": "color-palette.base.darker",
+        }
+
+      },
+    },
+    "smalltext": {
+      "semantic": "used for captions, or information which is important but not primary in it's specific context",
+      "font": "sans serif",
+      "weight": "regular",
+      "scale": "0.75rem",
+      "size": "12pt",
+      "color": "color-palette.base.darkest"
+    },
+    "buttontext": {
+      "semantic": "primary UI type",
+      "font": "sans serif",
+      "weight": "bold",
+      "scale": "1.375rem",
+      "size": "22pt",
+      "color": "inherit"
+    }
+  }

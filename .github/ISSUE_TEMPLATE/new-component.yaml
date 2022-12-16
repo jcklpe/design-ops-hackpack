@@ -1,0 +1,16 @@
+name: New Component Discussion Ticket
+description: Issue ticket for discussing a new component
+title:  "{Project/Trial} Epic"
+labels: [ "design", "design system"]
+assignees:
+  - octocat
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Basic description of what the use case for the component is.
+      placeholder:
+      value:
+    validations:
+      required: true

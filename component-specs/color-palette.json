@@ -1,0 +1,67 @@
+{
+    "semantic": "The color palette is a collection of global tokens which are immanent throughout the rest of the application. The palette helps outline the semantic use of color in the design system.",
+    "shadow": {
+      "semantic": "shadow rgba value used for all semi-transparent shadow elements such as modal background overlays",
+      "default": "rgba(27, 27, 27, 0.48)"
+    },
+    "base": {
+      "semantic": "default color range",
+      "lightest": "#F6F6F6",
+      "lighter": "#F0F0F0",
+      "light": "#9B9D9F",
+      "default": "#71767A",
+      "dark": "#565C65",
+      "darker": "#3D4551",
+      "darkest": "#1B1B1B"
+    },
+    "primary": {
+      "semantic": "default primary color. Used for buttons, accent styling etc",
+      "lightest": "#EFF6FB",
+      "lighter": "#D9E8F6",
+      "light": "#73B3E7",
+      "default": "#005EA2",
+      "dark": "#1A4480",
+      "darker": "#162E51",
+      "darkest": "#252F3E"
+    },
+    "success": {
+      "semantic": "this color is used for positive actions or to show success state",
+      "lightest": "#ecf3ec",
+      "lighter": "#DBEBDE",
+      "light": "#70e17b",
+      "default": "#00A91C",
+      "dark": "#008817",
+      "darker": "#216e1f",
+      "darkest": "#154c21"
+    },
+    "danger": {
+      "semantic": "this color is used for negative actions (such as delete etc) or to show failure/error state",
+      "lightest": "#F8EFF1",
+      "lighter": "#F8DFE2",
+      "light": "#F2938C",
+      "default": "#D83933",
+      "dark": "#B50909",
+      "darker": "#8B0A03",
+      "darkest": "#4f1c24"
+    },
+    "warning": {
+      "semantic": "this color is used to show a warning state",
+      "lightest": "#FAF3D1",
+      "lighter": "#FEE685",
+      "light": "#FFBE2E",
+      "default": "#E5A000",
+      "dark": "#C2850C",
+      "darker": "#936F38",
+      "darkest": "#7A591A"
+    },
+    "info": {
+      "semantic": "used for information banners, and hyperlinks",
+      "lightest": "#E7F6F8",
+      "lighter": "#CCECF2",
+      "light": "#99DEEA",
+      "default": "#00bde3",
+      "dark": "#009ec1",
+      "darker": "#0081a1",
+      "darkest": "#00687D"
+    }
+  }

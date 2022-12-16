@@ -1,0 +1,13 @@
+{
+    "semantic": "Buttons trigger an action such as submitting a form or showing/hiding an interface component.",
+    "border-radius": "shape-palette.rounded-corners-radius",
+    "background-color": "color-palette.primary.default",
+    "padding": "12 35",
+    "label": {
+        "semantic": "text label describing the action that the button is used to perform. Buttons labels should always begin with a Verb and when possible should include the Noun the action is being performed upon.",
+        "color": "color-palette.base.lightest",
+        "font-style":"type-palette.buttontext",
+        "case-type": "Sentence case"
+    }
+
+}
